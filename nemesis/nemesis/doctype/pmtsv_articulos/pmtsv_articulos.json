@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:articulo",
+ "creation": "2024-03-16 23:02:07.101305",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "articulo",
+  "descripcion",
+  "valor_multa"
+ ],
+ "fields": [
+  {
+   "fieldname": "articulo",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Codigo del Art\u00edculo",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "descripcion",
+   "fieldtype": "Small Text",
+   "label": "Descripci\u00f3n"
+  },
+  {
+   "fieldname": "valor_multa",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Valor",
+   "non_negative": 1,
+   "precision": "2",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-02 10:24:28.430190",
+ "modified_by": "Administrator",
+ "module": "NEMESIS",
+ "name": "PMTSV_Articulos",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "articulo,descripcion",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "articulo"
+}

@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "autoname": "field:empleado_id",
+ "creation": "2024-03-17 12:46:09.592055",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "empleado_id",
+  "habilitado"
+ ],
+ "fields": [
+  {
+   "fieldname": "empleado_id",
+   "fieldtype": "Link",
+   "label": "Empleado ID",
+   "options": "Employee",
+   "unique": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "habilitado",
+   "fieldtype": "Check",
+   "label": "Habilitado"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-02 10:30:20.946878",
+ "modified_by": "Administrator",
+ "module": "NEMESIS",
+ "name": "PMTSV_Agentes",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,94 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"LKMUANWoJR\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">PMT&amp;SV</span>\",\"col\":12}},{\"id\":\"XJcbmKW3hB\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Marca Vehiculo\",\"col\":4}},{\"id\":\"YisHOjcuYs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Boletas\",\"col\":4}},{\"id\":\"0HPJ_p0oZI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Talonarios\",\"col\":4}},{\"id\":\"aayhE_y-ZQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Articulos\",\"col\":4}},{\"id\":\"idxG4zX1cU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Placa Tipo\",\"col\":4}},{\"id\":\"F_AwR7_kYD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Agentes\",\"col\":4}},{\"id\":\"Qy37V5I6KO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Juzgado Expediente\",\"col\":4}},{\"id\":\"dPnjcpMq3D\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Vehiculos\",\"col\":4}}]",
+ "creation": "2024-05-01 23:03:21.672091",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "project-2",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "PMT&SV",
+ "links": [],
+ "modified": "2024-05-02 17:42:19.791210",
+ "modified_by": "Administrator",
+ "module": "NEMESIS",
+ "name": "PMT&SV",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 39.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "PMTSV Marca Vehiculo",
+   "link_to": "PMTSV_Marca_Vehiculo",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "PMTSV Boletas",
+   "link_to": "PMTSV_Boletas",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "PMTSV Talonarios",
+   "link_to": "PMTSV_Talonarios",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "PMTSV Articulos",
+   "link_to": "PMTSV_Articulos",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "PMTSV Placa Tipo",
+   "link_to": "PMTSV_Placa_Tipo",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "PMTSV Agentes",
+   "link_to": "PMTSV_Agentes",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "PMTSV Juzgado Expediente",
+   "link_to": "PMTSV_Juzgado_Expediente",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "PMTSV Vehiculos",
+   "link_to": "PMTSV_Vehiculos",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "PMT&SV"
+}

@@ -1,0 +1,184 @@
+{
+ "actions": [],
+ "autoname": "field:boleta_id",
+ "creation": "2024-03-17 17:35:42.857266",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_o0nw",
+  "amended_from",
+  "boleta_id",
+  "buscar",
+  "column_break_hekf",
+  "placa_id",
+  "infraccion_fecha",
+  "infraccion_hora",
+  "section_break_sluj",
+  "infractor_cui",
+  "column_break_eyvd",
+  "infractor_nit",
+  "section_break_fcie",
+  "infractor_nombre",
+  "section_break_dhqg",
+  "infraccion_articulo",
+  "column_break_dnhv",
+  "descripcion",
+  "column_break_pxra",
+  "boleta_valor"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_o0nw",
+   "fieldtype": "Section Break",
+   "label": "Datos de Boleta"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "PMTSV_Boletas",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "boleta_id",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Boleta No.",
+   "options": "PMTSV_Talonario_Detalle",
+   "unique": 1
+  },
+  {
+   "fieldname": "buscar",
+   "fieldtype": "Button",
+   "label": "Buscar"
+  },
+  {
+   "fieldname": "column_break_hekf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "placa_id",
+   "fieldtype": "Link",
+   "label": "Placa del Veh\u00edculo",
+   "options": "PMTSV_Vehiculos",
+   "reqd": 1
+  },
+  {
+   "fieldname": "infraccion_fecha",
+   "fieldtype": "Date",
+   "in_filter": 1,
+   "in_standard_filter": 1,
+   "label": "Fecha de Infracci\u00f3n",
+   "reqd": 1
+  },
+  {
+   "fieldname": "infraccion_hora",
+   "fieldtype": "Time",
+   "label": "Hora de Infracci\u00f3n"
+  },
+  {
+   "fieldname": "section_break_sluj",
+   "fieldtype": "Section Break",
+   "label": "Datos del Infractor"
+  },
+  {
+   "fieldname": "infractor_cui",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Numero de DPI/CUI",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "column_break_eyvd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "infractor_nit",
+   "fieldtype": "Link",
+   "label": "NIT (Empresa)",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "section_break_fcie",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "infractor_nombre",
+   "fieldtype": "Read Only",
+   "label": "Nombre del Infractor (customer)"
+  },
+  {
+   "fieldname": "section_break_dhqg",
+   "fieldtype": "Section Break",
+   "label": "Articulo de la Infracci\u00f3n"
+  },
+  {
+   "fieldname": "infraccion_articulo",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "label": "No. del Articulo",
+   "options": "PMTSV_Articulos",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_dnhv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "infraccion_articulo.descripcion",
+   "fieldname": "descripcion",
+   "fieldtype": "Small Text",
+   "label": "Descripci\u00f3n",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_pxra",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "infraccion_articulo.valor_multa",
+   "fieldname": "boleta_valor",
+   "fieldtype": "Currency",
+   "label": "Valor",
+   "precision": "2",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-05-02 10:01:10.305136",
+ "modified_by": "Administrator",
+ "module": "NEMESIS",
+ "name": "PMTSV_Boletas",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "boleta_id",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "boleta_id"
+}
