@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"LKMUANWoJR\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">PMT&amp;SV</span>\",\"col\":12}},{\"id\":\"XJcbmKW3hB\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Marca Vehiculo\",\"col\":4}},{\"id\":\"YisHOjcuYs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Boletas\",\"col\":4}},{\"id\":\"0HPJ_p0oZI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Talonarios\",\"col\":4}},{\"id\":\"aayhE_y-ZQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Articulos\",\"col\":4}},{\"id\":\"idxG4zX1cU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Placa Tipo\",\"col\":4}},{\"id\":\"F_AwR7_kYD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Agentes\",\"col\":4}},{\"id\":\"Qy37V5I6KO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Juzgado Expediente\",\"col\":4}},{\"id\":\"dPnjcpMq3D\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PMTSV Vehiculos\",\"col\":4}}]",
+ "content": "[{\"id\":\"LKMUANWoJR\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">PMT&amp;SV</span>\",\"col\":12}},{\"id\":\"XJcbmKW3hB\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Marca de Vehiculo\",\"col\":4}},{\"id\":\"YisHOjcuYs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gesti\u00f3n de Boletas\",\"col\":4}},{\"id\":\"0HPJ_p0oZI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Registro de Talonarios\",\"col\":4}},{\"id\":\"aayhE_y-ZQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Listado de Art\u00edculos\",\"col\":4}},{\"id\":\"idxG4zX1cU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tipos de Placas\",\"col\":4}},{\"id\":\"F_AwR7_kYD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gesti\u00f3n de Agentes\",\"col\":4}},{\"id\":\"Qy37V5I6KO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expedientes de Transito\",\"col\":4}},{\"id\":\"dPnjcpMq3D\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gesti\u00f3n de Vehiculos\",\"col\":4}}]",
  "creation": "2024-05-01 23:03:21.672091",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "PMT&SV",
  "links": [],
- "modified": "2024-05-02 17:42:19.791210",
+ "modified": "2024-05-08 15:55:12.181252",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "PMT&SV",
@@ -28,15 +28,15 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "PMTSV Marca Vehiculo",
+   "label": "Marca de Vehiculo",
    "link_to": "PMTSV_Marca_Vehiculo",
    "stats_filter": "[]",
    "type": "DocType"
   },
   {
-   "color": "Grey",
+   "color": "Red",
    "doc_view": "List",
-   "label": "PMTSV Boletas",
+   "label": "Gesti\u00f3n de Boletas",
    "link_to": "PMTSV_Boletas",
    "stats_filter": "[]",
    "type": "DocType"
@@ -44,7 +44,7 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "PMTSV Talonarios",
+   "label": "Registro de Talonarios",
    "link_to": "PMTSV_Talonarios",
    "stats_filter": "[]",
    "type": "DocType"
@@ -52,7 +52,7 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "PMTSV Articulos",
+   "label": "Listado de Art\u00edculos",
    "link_to": "PMTSV_Articulos",
    "stats_filter": "[]",
    "type": "DocType"
@@ -60,7 +60,7 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "PMTSV Placa Tipo",
+   "label": "Tipos de Placas",
    "link_to": "PMTSV_Placa_Tipo",
    "stats_filter": "[]",
    "type": "DocType"
@@ -68,7 +68,7 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "PMTSV Agentes",
+   "label": "Gesti\u00f3n de Agentes",
    "link_to": "PMTSV_Agentes",
    "stats_filter": "[]",
    "type": "DocType"
@@ -76,7 +76,7 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "PMTSV Juzgado Expediente",
+   "label": "Expedientes de Transito",
    "link_to": "PMTSV_Juzgado_Expediente",
    "stats_filter": "[]",
    "type": "DocType"
@@ -84,7 +84,7 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "PMTSV Vehiculos",
+   "label": "Gesti\u00f3n de Vehiculos",
    "link_to": "PMTSV_Vehiculos",
    "stats_filter": "[]",
    "type": "DocType"
