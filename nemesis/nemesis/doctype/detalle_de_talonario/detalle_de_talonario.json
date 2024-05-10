@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "autoname": "field:boleta_id",
+ "creation": "2024-03-17 12:43:08.797177",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "boleta_id",
+  "talonario_id",
+  "agente_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "boleta_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Boleta ID",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "talonario_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Talonario ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "agente_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Agente ID",
+   "read_only": 1,
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-09 21:10:36.891135",
+ "modified_by": "Administrator",
+ "module": "NEMESIS",
+ "name": "Detalle de Talonario",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
