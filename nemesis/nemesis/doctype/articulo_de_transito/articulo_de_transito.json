@@ -16,6 +16,7 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Codigo del Art\u00edculo",
+   "length": 10,
    "reqd": 1,
    "unique": 1
   },
@@ -36,7 +37,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-02 10:24:28.430190",
+ "modified": "2024-05-09 22:08:16.266640",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "Articulo de Transito",

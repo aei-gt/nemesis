@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"LKMUANWoJR\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">PMT&amp;Seguridad Vial</span>\",\"col\":12}},{\"id\":\"XJcbmKW3hB\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Marca de Vehiculo\",\"col\":4}},{\"id\":\"YisHOjcuYs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gesti\u00f3n de Boletas\",\"col\":4}},{\"id\":\"0HPJ_p0oZI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Registro de Talonarios\",\"col\":4}},{\"id\":\"aayhE_y-ZQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Listado de Art\u00edculos\",\"col\":4}},{\"id\":\"idxG4zX1cU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tipos de Placas\",\"col\":4}},{\"id\":\"F_AwR7_kYD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gesti\u00f3n de Agentes\",\"col\":4}},{\"id\":\"Qy37V5I6KO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expedientes de Transito\",\"col\":4}},{\"id\":\"dPnjcpMq3D\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gesti\u00f3n de Vehiculos\",\"col\":4}}]",
+ "content": "[{\"id\":\"LKMUANWoJR\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">PMT&amp;Seguridad Vial</span>\",\"col\":12}},{\"id\":\"wX6q_hi72V\",\"type\":\"card\",\"data\":{\"card_name\":\"<b><h3>Gesti\u00f3n Operativa</h3></b>\",\"col\":4}},{\"id\":\"0HPJ_p0oZI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Registro de Talonarios\",\"col\":4}},{\"id\":\"XJcbmKW3hB\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Marca de Vehiculo\",\"col\":4}},{\"id\":\"idxG4zX1cU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tipos de Placas\",\"col\":4}},{\"id\":\"F_AwR7_kYD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Agente de Transito\",\"col\":4}},{\"id\":\"Qy37V5I6KO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expedientes de Transito\",\"col\":4}},{\"id\":\"aayhE_y-ZQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Listado de Art\u00edculos\",\"col\":4}}]",
  "creation": "2024-05-01 23:03:21.672091",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,8 +12,39 @@
  "indicator_color": "",
  "is_hidden": 0,
  "label": "PMT&SV",
- "links": [],
- "modified": "2024-05-08 16:17:42.914486",
+ "links": [
+  {
+   "description": "Operaciones generales diarias",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "<b><h3>Gesti\u00f3n Operativa</h3></b>",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Boleta de Transito",
+   "link_count": 0,
+   "link_to": "Boleta de Transito",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Detalle de Vehiculo",
+   "link_count": 0,
+   "link_to": "Detalle de Vehiculo",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-05-09 21:56:54.958906",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "PMT&SV",
@@ -28,16 +59,18 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Marca de Vehiculo",
-   "link_to": "PMTSV_Marca_Vehiculo",
+   "format": "{}",
+   "label": "Agente de Transito",
+   "link_to": "Agente de Transito",
    "stats_filter": "[]",
    "type": "DocType"
   },
   {
-   "color": "Red",
+   "color": "Grey",
    "doc_view": "List",
-   "label": "Gesti\u00f3n de Boletas",
-   "link_to": "PMTSV_Boletas",
+   "format": "{} Open",
+   "label": "Marca de Vehiculo",
+   "link_to": "Marca de Vehiculo",
    "stats_filter": "[]",
    "type": "DocType"
   },
@@ -45,7 +78,7 @@
    "color": "Grey",
    "doc_view": "List",
    "label": "Registro de Talonarios",
-   "link_to": "PMTSV_Talonarios",
+   "link_to": "Talonario de Boletas",
    "stats_filter": "[]",
    "type": "DocType"
   },
@@ -53,7 +86,7 @@
    "color": "Grey",
    "doc_view": "List",
    "label": "Listado de Art\u00edculos",
-   "link_to": "PMTSV_Articulos",
+   "link_to": "Articulo de Transito",
    "stats_filter": "[]",
    "type": "DocType"
   },
@@ -61,15 +94,7 @@
    "color": "Grey",
    "doc_view": "List",
    "label": "Tipos de Placas",
-   "link_to": "PMTSV_Placa_Tipo",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Gesti\u00f3n de Agentes",
-   "link_to": "PMTSV_Agentes",
+   "link_to": "Tipo de Placa",
    "stats_filter": "[]",
    "type": "DocType"
   },
@@ -77,15 +102,7 @@
    "color": "Grey",
    "doc_view": "List",
    "label": "Expedientes de Transito",
-   "link_to": "PMTSV_Juzgado_Expediente",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Gesti\u00f3n de Vehiculos",
-   "link_to": "PMTSV_Vehiculos",
+   "link_to": "Expediente de Juzgado",
    "stats_filter": "[]",
    "type": "DocType"
   }
