@@ -2,6 +2,16 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on("Boleta de Transito", {
+    setup:function(frm,dt,dn){
+        frm.set_query("boleta_id", function() {
+			return {
+				query: "nemesis.nemesis.doctype.boleta_de_transito.boleta_de_transito.boletas_doc_query",
+				filters: {
+					company: frm.doc.company
+				}
+			};
+		});
+    },
 	infractor_cui(frm) {
         if(frm.doc.infractor_cui){
             $("[data-fieldname='infractor_nit']").prop('disabled', true);

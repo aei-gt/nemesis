@@ -7,7 +7,6 @@
  "engine": "InnoDB",
  "field_order": [
   "section_break_2nyv",
-  "amended_from",
   "talonario_id",
   "boleta_inicial",
   "boleta_final",
@@ -16,22 +15,13 @@
   "agente_name",
   "section_break_upxu",
   "boleta_detalle",
-  "boletas_utilizadas_tab"
+  "boletas_utilizadas_tab",
+  "amended_from"
  ],
  "fields": [
   {
    "fieldname": "section_break_2nyv",
    "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Talonarios de Boletas",
-   "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
   },
   {
    "fieldname": "talonario_id",
@@ -85,12 +75,22 @@
    "fieldname": "boletas_utilizadas_tab",
    "fieldtype": "Tab Break",
    "label": "Boletas Utilizadas"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Talonario de Boletas",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-05-09 21:17:52.048963",
+ "modified": "2024-05-21 04:19:20.970662",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "Talonario de Boletas",

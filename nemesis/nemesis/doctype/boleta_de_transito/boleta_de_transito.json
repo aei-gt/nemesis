@@ -6,7 +6,6 @@
  "engine": "InnoDB",
  "field_order": [
   "section_break_o0nw",
-  "amended_from",
   "boleta_id",
   "buscar",
   "column_break_hekf",
@@ -31,16 +30,6 @@
    "fieldname": "section_break_o0nw",
    "fieldtype": "Section Break",
    "label": "Datos de Boleta"
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Boletas de Transito",
-   "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
   },
   {
    "bold": 1,
@@ -154,7 +143,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-05-09 21:17:38.989453",
+ "modified": "2024-05-21 00:21:25.344459",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "Boleta de Transito",
