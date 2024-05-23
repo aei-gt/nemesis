@@ -1,6 +1,6 @@
 {
  "actions": [],
- "autoname": "field:boleta_id",
+ "autoname": "format:{boleta_id}-{#####}",
  "creation": "2024-03-17 17:35:42.857266",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -23,7 +23,8 @@
   "column_break_dnhv",
   "descripcion",
   "column_break_pxra",
-  "boleta_valor"
+  "boleta_valor",
+  "amended_from"
  ],
  "fields": [
   {
@@ -39,8 +40,7 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Boleta No.",
-   "options": "Detalle de Talonario",
-   "unique": 1
+   "options": "Detalle de Talonario"
   },
   {
    "fieldname": "buscar",
@@ -138,16 +138,26 @@
    "label": "Valor",
    "precision": "2",
    "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Boleta de Transito",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-05-21 00:21:25.344459",
+ "modified": "2024-05-23 02:13:31.693408",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "Boleta de Transito",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
