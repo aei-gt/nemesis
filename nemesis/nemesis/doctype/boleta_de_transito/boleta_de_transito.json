@@ -7,24 +7,21 @@
  "field_order": [
   "section_break_o0nw",
   "boleta_id",
-  "buscar",
-  "column_break_hekf",
   "placa_id",
+  "column_break_hekf",
   "infraccion_fecha",
   "infraccion_hora",
-  "section_break_sluj",
-  "infractor_cui",
-  "column_break_eyvd",
-  "infractor_nit",
-  "section_break_fcie",
-  "infractor_nombre",
   "section_break_dhqg",
   "infraccion_articulo",
   "column_break_dnhv",
   "descripcion",
   "column_break_pxra",
   "boleta_valor",
-  "amended_from"
+  "amended_from",
+  "section_break_sluj",
+  "infractor_cui",
+  "column_break_eyvd",
+  "infractor_nombre"
  ],
  "fields": [
   {
@@ -43,11 +40,6 @@
    "options": "Detalle de Talonario"
   },
   {
-   "fieldname": "buscar",
-   "fieldtype": "Button",
-   "label": "Buscar"
-  },
-  {
    "fieldname": "column_break_hekf",
    "fieldtype": "Column Break"
   },
@@ -59,6 +51,7 @@
    "reqd": 1
   },
   {
+   "default": "Today",
    "fieldname": "infraccion_fecha",
    "fieldtype": "Date",
    "in_filter": 1,
@@ -74,7 +67,7 @@
   {
    "fieldname": "section_break_sluj",
    "fieldtype": "Section Break",
-   "label": "Datos del Infractor"
+   "label": "Datos del Conductor/Infractor"
   },
   {
    "fieldname": "infractor_cui",
@@ -87,16 +80,6 @@
   {
    "fieldname": "column_break_eyvd",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "infractor_nit",
-   "fieldtype": "Link",
-   "label": "NIT (Empresa)",
-   "options": "Customer"
-  },
-  {
-   "fieldname": "section_break_fcie",
-   "fieldtype": "Section Break"
   },
   {
    "fieldname": "infractor_nombre",
@@ -153,7 +136,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-05-23 02:13:31.693408",
+ "modified": "2024-06-03 11:18:58.820068",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "Boleta de Transito",
