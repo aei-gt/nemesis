@@ -11,6 +11,7 @@
   "column_break_hekf",
   "infraccion_fecha",
   "infraccion_hora",
+  "estado",
   "section_break_dhqg",
   "infraccion_articulo",
   "column_break_dnhv",
@@ -131,12 +132,18 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fieldname": "estado",
+   "fieldtype": "Link",
+   "label": "Estado",
+   "options": "Estado Boleta"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-06-03 11:18:58.820068",
+ "modified": "2024-06-27 11:32:00.275783",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "Boleta de Transito",
