@@ -1,12 +1,13 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:marca_vehiculo",
+ "autoname": "field:id_marca",
  "creation": "2024-03-16 22:06:44.852691",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "marcas_de_vehiculo_section",
+  "id_marca",
   "marca_vehiculo"
  ],
  "fields": [
@@ -19,14 +20,20 @@
    "fieldname": "marca_vehiculo",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Marca",
+   "label": "Nombre",
+   "unique": 1
+  },
+  {
+   "fieldname": "id_marca",
+   "fieldtype": "Data",
+   "label": "Id Marca",
    "reqd": 1,
    "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-02 10:33:55.633135",
+ "modified": "2024-07-15 15:22:53.863125",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "Marca de Vehiculo",
