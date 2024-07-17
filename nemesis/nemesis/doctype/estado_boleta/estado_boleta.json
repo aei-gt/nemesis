@@ -19,11 +19,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-27 11:30:46.985364",
+ "modified": "2024-07-05 15:32:45.337895",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "Estado Boleta",
- "naming_rule": "By fieldname",
+ "naming_rule": "Set by user",
  "owner": "Administrator",
  "permissions": [
   {
