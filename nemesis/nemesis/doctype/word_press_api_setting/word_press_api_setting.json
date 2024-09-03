@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-29 04:22:58.037198",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "hosting_credentials_section",
+  "host",
+  "user",
+  "password",
+  "column_break_mvwg",
+  "database",
+  "table",
+  "odbc_version"
+ ],
+ "fields": [
+  {
+   "fieldname": "hosting_credentials_section",
+   "fieldtype": "Section Break",
+   "label": "Hosting Credentials"
+  },
+  {
+   "fieldname": "host",
+   "fieldtype": "Data",
+   "label": "Host"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Data",
+   "label": "User"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Data",
+   "label": "Password"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "Data",
+   "label": "Table"
+  },
+  {
+   "fieldname": "odbc_version",
+   "fieldtype": "Data",
+   "label": "ODBC Version"
+  },
+  {
+   "fieldname": "column_break_mvwg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "database",
+   "fieldtype": "Data",
+   "label": "DataBase"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-08-29 08:18:24.043590",
+ "modified_by": "Administrator",
+ "module": "NEMESIS",
+ "name": "Word Press Api Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
