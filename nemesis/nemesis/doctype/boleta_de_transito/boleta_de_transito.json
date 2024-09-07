@@ -28,6 +28,7 @@
   "infractor_nombre",
   "vehiculo_section",
   "marca_del_vehiculo",
+  "tipo_de_placa",
   "column_break_mwww",
   "color"
  ],
@@ -184,11 +185,18 @@
   {
    "fieldname": "column_break_mwww",
    "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "placa_id.tipo_placa",
+   "fieldname": "tipo_de_placa",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Tipo de Placa"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-02 23:09:11.920006",
+ "modified": "2024-09-07 04:34:39.253236",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "Boleta de Transito",
