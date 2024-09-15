@@ -1,6 +1,6 @@
 {
  "actions": [],
- "autoname": "format:{yyyy}-{mm}-{dd}-{#####}",
+ "autoname": "format:{YYYY}-{MM}-{DD}-{#####}",
  "creation": "2024-03-17 17:35:42.857266",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -196,7 +196,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-07 04:34:39.253236",
+ "modified": "2024-09-12 07:25:29.285628",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "Boleta de Transito",
