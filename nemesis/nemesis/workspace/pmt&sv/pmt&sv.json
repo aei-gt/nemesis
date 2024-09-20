@@ -1,7 +1,7 @@
 {
  "charts": [],
- "content": "[{\"id\":\"LKMUANWoJR\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">PMT&amp;Seguridad Vial</span>\",\"col\":12}},{\"id\":\"wX6q_hi72V\",\"type\":\"card\",\"data\":{\"card_name\":\"<b><h3>Gesti\u00f3n Operativa</h3></b>\",\"col\":4}},{\"id\":\"0HPJ_p0oZI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Registro de Talonarios\",\"col\":4}},{\"id\":\"XJcbmKW3hB\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Marca de Vehiculo\",\"col\":4}},{\"id\":\"idxG4zX1cU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tipos de Placas\",\"col\":4}},{\"id\":\"F_AwR7_kYD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Agente de Transito\",\"col\":4}},{\"id\":\"Qy37V5I6KO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expedientes de Transito\",\"col\":4}},{\"id\":\"aayhE_y-ZQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Listado de Art\u00edculos\",\"col\":4}}]",
- "creation": "2024-09-16 06:12:07.128892",
+ "content": "[{\"id\":\"LKMUANWoJR\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">PMT&amp;Seguridad Vial</span>\",\"col\":12}},{\"id\":\"wX6q_hi72V\",\"type\":\"card\",\"data\":{\"card_name\":\"<b><h3>Gesti\u00f3n Operativa</h3></b>\",\"col\":12}},{\"id\":\"XJcbmKW3hB\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Marca de Vehiculo\",\"col\":4}},{\"id\":\"idxG4zX1cU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tipos de Placas\",\"col\":4}},{\"id\":\"F_AwR7_kYD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Agente de Transito\",\"col\":4}},{\"id\":\"Qy37V5I6KO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expedientes de Transito\",\"col\":4}},{\"id\":\"aayhE_y-ZQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Listado de Art\u00edculos\",\"col\":4}},{\"id\":\"0HPJ_p0oZI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Registro de Talonarios\",\"col\":4}}]",
+ "creation": "2024-05-01 23:03:21.672091",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -18,7 +18,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "<b><h3>Gesti\u00f3n Operativa</h3></b>",
-   "link_count": 2,
+   "link_count": 3,
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
@@ -42,9 +42,19 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Infractores",
+   "link_count": 0,
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2024-09-19 04:12:52.688458",
+ "modified": "2024-09-19 04:13:28.158179",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "PMT&SV",
