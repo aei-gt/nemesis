@@ -101,7 +101,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-09 21:15:46.824930",
+ "modified": "2024-09-25 14:51:00.398694",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "Detalle de Vehiculo",
@@ -121,6 +121,7 @@
    "write": 1
   }
  ],
+ "quick_entry": 1,
  "search_fields": "placa_id, propietario_nit",
  "show_title_field_in_link": 1,
  "sort_field": "modified",
