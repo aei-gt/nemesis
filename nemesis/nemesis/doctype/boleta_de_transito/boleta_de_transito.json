@@ -135,7 +135,7 @@
    "read_only": 1
   },
   {
-   "default": "0",
+   "default": "DIGITADA",
    "fieldname": "estado_boleta",
    "fieldtype": "Link",
    "label": "Estado",
@@ -160,7 +160,7 @@
   },
   {
    "fieldname": "infraccion_observaciones",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "label": "Observaciones"
   },
   {
@@ -194,9 +194,10 @@
    "label": "Tipo de Placa"
   }
  ],
+ "image_field": "infraccion_imagen",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-12 07:25:29.285628",
+ "modified": "2024-12-31 14:33:06.427000",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "Boleta de Transito",
