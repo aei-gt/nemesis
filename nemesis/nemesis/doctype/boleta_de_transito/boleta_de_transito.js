@@ -38,4 +38,24 @@ frappe.ui.form.on("Boleta de Transito", {
             frm.set_value("infractor_nombre", "")
         }
 	},
+    refresh: function(frm) {
+        console.log("sss");
+        
+        if (frm.doc.invoice_created===0 && frm.doc.estado_boleta === "VERIFICADA") {
+            frm.add_custom_button('Create Invoice', function() {
+                frappe.call({
+                    method: "nemesis.events.boleta_sale_invoice.create_invoice",
+                    args: {
+                        boleta_name: frm.doc.name
+                    },
+                    callback: function(r) {
+                        if (!r.exc) {
+                            frappe.msgprint(r.message);
+                            frm.refresh();
+                        }
+                    }
+                });
+            });
+        }
+    }
 });
