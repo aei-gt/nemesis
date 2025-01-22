@@ -31,9 +31,9 @@
   "tipo_de_placa",
   "column_break_mwww",
   "color",
-  "section_break_betj",
-  "invoice_reference",
-  "invoice_created"
+  "cuenta_corriente_tab",
+  "generated_invoices",
+  "total_amount"
  ],
  "fields": [
   {
@@ -197,27 +197,28 @@
    "label": "Tipo de Placa"
   },
   {
-   "fieldname": "section_break_betj",
-   "fieldtype": "Section Break"
+   "fieldname": "cuenta_corriente_tab",
+   "fieldtype": "Tab Break",
+   "label": "Cuenta Corriente"
   },
   {
-   "fieldname": "invoice_reference",
-   "fieldtype": "Link",
-   "label": "Invoice Reference",
-   "options": "Sales Invoice"
+   "fieldname": "generated_invoices",
+   "fieldtype": "Table",
+   "label": "Generated Invoices",
+   "options": "Boleta Genrated Invoices",
+   "read_only": 1
   },
   {
-   "default": "0",
-   "fieldname": "invoice_created",
-   "fieldtype": "Check",
-   "hidden": 1,
-   "label": "Invoice Created"
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Importe total",
+   "read_only": 1
   }
  ],
  "image_field": "infraccion_imagen",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-20 16:45:31.252880",
+ "modified": "2025-01-22 00:12:53.025895",
  "modified_by": "Administrator",
  "module": "NEMESIS",
  "name": "Boleta de Transito",

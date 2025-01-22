@@ -39,9 +39,7 @@ frappe.ui.form.on("Boleta de Transito", {
         }
 	},
     refresh: function(frm) {
-        console.log("sss");
-        
-        if (frm.doc.invoice_created===0 && frm.doc.estado_boleta === "VERIFICADA") {
+        if (frm.doc.estado_boleta === "VERIFICADA") {
             frm.add_custom_button('Create Invoice', function() {
                 frappe.call({
                     method: "nemesis.events.boleta_sale_invoice.create_invoice",
@@ -57,5 +55,30 @@ frappe.ui.form.on("Boleta de Transito", {
                 });
             });
         }
+        frm.fields_dict.generated_invoices.grid.wrapper.find('.grid-row').each(function () {
+            let row_doc = $(this).data('doc'); // Child table row data
+            if (row_doc) {
+                let $status_cell = $(this).find('.grid-static-col[data-fieldname="status"]');
+                if (row_doc.status === "Unpaid") {
+                    $status_cell.css({
+                        "background-color": "#bd3e0c",
+                        "color": "white",
+                        "font-weight": "bold",
+                    }).addClass('indicator-pill #bd3e0c');
+                } else if (row_doc.status === "Paid") {
+                    $status_cell.css({
+                        "background-color": "#16794c",
+                        "color": "white",
+                        "font-weight": "bold",
+                    }).addClass('indicator-pill #16794c');
+                }else if (row_doc.status === "Overdue") {
+                    $status_cell.css({
+                        "background-color": "#851111",
+                        "color": "white",
+                        "font-weight": "bold",
+                    }).addClass('indicator-pill  #851111');
+                }
+            }
+        });
     }
 });

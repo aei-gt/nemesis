@@ -126,6 +126,9 @@ doc_events = {
 	"Ahmed": {
 		"validate": "nemesis.events.data_api.fetch_data",
 	},
+     "Payment Entry": {
+    "on_submit": "nemesis.events.boleta_sale_invoice.on_invoice_update"
+    }
  
 }
 
